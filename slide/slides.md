@@ -41,11 +41,45 @@ image: https://avatars.githubusercontent.com/u/86472869?v=4
 
 ---
 layout: default
+title: RAG / FT / DPOの大まかな役割
+---
+
+---
+layout: default
 title: AIモデルルータとは？
 ---
 
-aaa
+---
+layout: default
+title: なぜ、FTをモデルルータにするのか
+---
 
-- b
-- c
-  - d
+---
+layout: default
+title: FT手法の種類
+---
+
+---
+layout: default
+title: LoRA Fine-Tuning
+---
+
+---
+layout: default
+title: PromptとFTの比較
+---
+
+---
+layout: default
+title: Accuracy / Macro F1
+---
+
+---
+layout: default
+title: 誤分類例
+---
+
+---
+layout: default
+title: Fine-Tuningして分かったこと
+---
