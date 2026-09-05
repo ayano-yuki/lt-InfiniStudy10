@@ -39,28 +39,10 @@ name: 平良昂也
 image: https://avatars.githubusercontent.com/u/86472869?v=4
 ---
 
-<style>
-.social {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-}
-
-.social img {
-  width: 1.1em;
-  height: 1.1em;
-  vertical-align: middle;
-}
-
-.social code {
-  font-size: 0.95em;
-}
-</style>
-
 - 合同会社DMM.com
   - フロントエンドエンジニア
   - DMM TVの特殊デバイスを開発
 - ファインチューニングのコンテスト（JAICON）に参加
   - AIモデルルータの実装を担当
-- <span class="social"><img src="https://cdn.simpleicons.org/x/000000" alt="X" />：`__ayanoYuki__`</span>
-- <span class="social"><img src="https://cdn.simpleicons.org/github/000000" alt="GitHub" />：`ayano-yuki`</span>
+- <SocialLink icon="https://cdn.simpleicons.org/x/000000" label="X" account="__ayanoYuki__" href="https://x.com/__ayanoYuki__" />
+- <SocialLink icon="https://cdn.simpleicons.org/github/000000" label="GitHub" account="ayano-yuki" href="https://github.com/ayano-yuki" />
