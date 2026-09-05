@@ -27,7 +27,7 @@ image: https://avatars.githubusercontent.com/u/86472869?v=4
 
 ---
 layout: introduction
-name: 平良昂也
+name: 平良昂也（Taira Koya）
 image: https://avatars.githubusercontent.com/u/86472869?v=4
 ---
 
@@ -38,3 +38,14 @@ image: https://avatars.githubusercontent.com/u/86472869?v=4
   - AIモデルルータの実装を担当
 - <SocialLink icon="https://cdn.simpleicons.org/x/000000" label="X" account="__ayanoYuki__" href="https://x.com/__ayanoYuki__" />
 - <SocialLink icon="https://cdn.simpleicons.org/github/000000" label="GitHub" account="ayano-yuki" href="https://github.com/ayano-yuki" />
+
+---
+layout: default
+title: AIモデルルータとは？
+---
+
+aaa
+
+- b
+- c
+  - d

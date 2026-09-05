@@ -1,9 +1,18 @@
 <script setup>
+import { computed } from 'vue';
+import { useSlideContext } from '@slidev/client';
 import { COLOR_BLACK, COLOR_PRIMARY, COLOR_WHITE } from './constants';
+
+const { $frontmatter } = useSlideContext();
+
+const pageTitle = computed(() => {
+  return $frontmatter.title || $frontmatter.pageTitle || $frontmatter.header || '';
+});
 </script>
 
 <template>
   <div class="default">
+    <h1 v-if="pageTitle" class="default-title">{{ pageTitle }}</h1>
     <div class="default-slot">
       <slot />
     </div>
@@ -21,13 +30,7 @@ import { COLOR_BLACK, COLOR_PRIMARY, COLOR_WHITE } from './constants';
   background: v-bind("COLOR_WHITE") !important;
 }
 
-.default-slot {
-  width: 100%;
-  height: 100%;
-}
-
-/* Heading */
-.default h1 {
+.default-title {
   position: relative;
   margin: 0 0 1rem;
   padding-bottom: 5px;
@@ -36,7 +39,7 @@ import { COLOR_BLACK, COLOR_PRIMARY, COLOR_WHITE } from './constants';
   font-weight: 900;
 }
 
-.default h1::after {
+.default-title::after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -44,6 +47,11 @@ import { COLOR_BLACK, COLOR_PRIMARY, COLOR_WHITE } from './constants';
   height: 4px;
   background-color: v-bind("COLOR_PRIMARY");
   content: "";
+}
+
+.default-slot {
+  width: 100%;
+  height: 100%;
 }
 
 /* Body */
