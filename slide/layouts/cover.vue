@@ -1,10 +1,25 @@
 <script setup>
 import { COLOR_PRIMARY, COLOR_WHITE } from './constants';
+
+defineProps({
+  mainTitle: String,
+  subTitle: String,
+  image: String,
+});
 </script>
 
 <template>
   <div class="cover">
-    <slot />
+    <div class="cover-heading">
+      <h1>{{ mainTitle }}</h1>
+      <h2 v-if="subTitle">{{ subTitle }}</h2>
+    </div>
+
+    <img v-if="image" :src="image" :alt="mainTitle" class="cover-image" />
+
+    <div class="cover-footer">
+      <slot />
+    </div>
   </div>
 </template>
 
@@ -19,6 +34,12 @@ import { COLOR_PRIMARY, COLOR_WHITE } from './constants';
   text-align: center;
 }
 
+.cover-heading {
+  position: absolute;
+  inset: 0 0 auto;
+  padding: 4rem;
+}
+
 /* Title */
 .cover h1 {
   margin: 0;
@@ -31,12 +52,18 @@ import { COLOR_PRIMARY, COLOR_WHITE } from './constants';
 }
 
 /* Center image */
-.cover img {
+.cover-image {
   position: absolute;
-  top: 55%;
+  top: 58%;
   left: 50%;
   max-width: 20%;
   object-fit: contain;
   transform: translate(-50%, -50%);
+}
+
+.cover-footer {
+  position: absolute;
+  inset: auto 0 0;
+  padding: 2rem;
 }
 </style>

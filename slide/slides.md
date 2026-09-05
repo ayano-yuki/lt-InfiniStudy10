@@ -16,22 +16,14 @@ transition: slide-left
 duration: 10min
 
 layout: cover
+mainTitle: Fine-Tuningっていつ使うの？
+subTitle: 〜小さなLLMをモデルルーターにして分かったこと〜
+image: https://avatars.githubusercontent.com/u/86472869?v=4
 ---
 
-<div class="absolute inset-x-0 top-0 p-16">
+第10回 InfiniStudy（AI活用・Fine tuning）
 
-  # Fine-Tuningっていつ使うの？
-  ## 〜小さなLLMをモデルルーターにして分かったこと〜
-
-</div>
-
-<img src="https://avatars.githubusercontent.com/u/86472869?v=4">
-
-<div class="absolute inset-x-0 bottom-0 p-8">
-  第10回 InfiniStudy（AI活用・Fine tuning）
-  
-  合同会社DMM.com　平良昂也
-</div>
+合同会社DMM.com　平良昂也
 
 ---
 layout: introduction
