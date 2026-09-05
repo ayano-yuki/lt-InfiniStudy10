@@ -4,7 +4,7 @@
 
 https://infini-study.connpass.com/event/404899/
 
-## 「Fine-Tuningっていつ使うの？ 〜小さなLLMをモデルルーターにして分かったこと〜
+## Fine-Tuningっていつ使うの？ 〜小さなLLMをモデルルーターにして分かったこと〜
 
 ### What
 
