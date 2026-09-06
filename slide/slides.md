@@ -41,7 +41,7 @@ image: https://avatars.githubusercontent.com/u/86472869?v=4
 
 ---
 layout: default
-title: RAG / FT / DPOの大まかな役割
+title: LLMが増えると、新しい問題が出てくる
 ---
 
 ---
@@ -51,17 +51,17 @@ title: AIモデルルータとは？
 
 ---
 layout: default
-title: なぜ、FTをモデルルータにするのか
+title: なぜFine-Tuningを選んだのか
 ---
 
 ---
 layout: default
-title: FT手法の種類
+title: 今回の実験
 ---
 
 ---
 layout: default
-title: LoRA Fine-Tuning
+title: Prompt vs Fine-Tuning
 ---
 
 ---
@@ -71,15 +71,60 @@ title: PromptとFTの比較
 
 ---
 layout: default
-title: Accuracy / Macro F1
----
-
----
-layout: default
-title: 誤分類例
----
-
----
-layout: default
 title: Fine-Tuningして分かったこと
+---
+
+---
+layout: default
+title: Prompt / SFT / RAG / DPO / RAGの違い
+---
+
+---
+layout: default
+title: まとめ
+---
+
+---
+layout: default
+title: Appendix：実験条件
+---
+
+---
+layout: default
+title: Appendix：Prompt vs FTの比較条件
+---
+
+---
+layout: default
+title: Appendix：誤分類例
+---
+
+---
+layout: default
+title: Appendix：Datasetの作り方と限界
+---
+
+---
+layout: default
+title: Appendix：Fine-Tuningを検討する判断フロー
+---
+
+---
+layout: default
+title: Appendix：FT手法の種類
+---
+
+---
+layout: default
+title: Appendix：FFT / SFT / LoRA / DPO / RAGの関係
+---
+
+---
+layout: default
+title: Appendix：FT手法の種類
+---
+
+---
+layout: default
+title: Appendix：FT手法の種類
 ---
