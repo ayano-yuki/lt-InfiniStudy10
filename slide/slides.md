@@ -85,13 +85,12 @@ title: まとめ
 ---
 
 ---
-layout: default
-title: Appendix：実験条件
+layout: section
 ---
 
 ---
 layout: default
-title: Appendix：Prompt vs FTの比較条件
+title: Appendix：実験条件 / Prompt vs FTの比較条件
 ---
 
 ---
