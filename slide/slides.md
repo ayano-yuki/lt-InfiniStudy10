@@ -18,7 +18,7 @@ duration: 10min
 layout: cover
 mainTitle: Fine-Tuningっていつ使うの？
 subTitle: 〜小さなLLMをモデルルーターにして分かったこと〜
-image: https://avatars.githubusercontent.com/u/86472869?v=4
+image: /img/Icon02.png
 ---
 
 第10回 InfiniStudy（AI活用・Fine tuning）
