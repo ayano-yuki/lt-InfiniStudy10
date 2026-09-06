@@ -44,10 +44,44 @@ layout: default
 title: LLMが増えると、新しい問題が出てくる
 ---
 
+使えるLLMが増えると、「どの質問をどのモデルに投げるのか？」という問題が発生する
+
+<br>
+
+  - 質の良い回答がほしい
+  - コストが低いものが使いたい
+  - 悩む時間がもったいない
+
+<br>
+
+```
+例）
+「PostgreSQLが遅い。コードも含めて改善方法を教えて。」
+
+Coding？
+Database？
+General？
+```
+
 ---
 layout: default
 title: AIモデルルータとは？
 ---
+
+ユーザーから入力された質問やタスクの難易度、コスト、応答速度（レイテンシ）などをリアルタイムで解析し、複数のAIモデルの中から最適なモデルへ自動的に処理を振り分ける仕組み
+
+<br>
+
+- Cursor の「Cursor Router」
+- SakanaAIの「Fugu」
+- RouteLLM
+- OpenRouter
+
+<br>
+
+```
+Question  ➡  Small LLM  ➡  Analysis  ➡  Specialist LLM
+```
 
 ---
 layout: default
