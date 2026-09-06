@@ -148,7 +148,7 @@ Category
 
 を見る。
 
-# 今週作る実験用Repository
+# 実験用Repository
 
 大規模なものにしない。
 
