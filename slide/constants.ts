@@ -5,7 +5,11 @@ export const COLOR_RED = '#f07b73';
 export const COLOR_ORANGE = '#ff9138';
 export const COLOR_GRAY = '#ffebe2';
 
+export const COLOR_BACKGROUND = COLOR_WHITE;
+export const COLOR_TEXT = COLOR_BLACK;
+export const COLOR_COVER = COLOR_WHITE;
 export const COLOR_PRIMARY = COLOR_RED;
+export const COLOR_CODE = COLOR_GRAY;
 
 // フォント関係
 export const FONT_SIZE_XL = '3rem';

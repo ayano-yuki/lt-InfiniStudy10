@@ -27,7 +27,7 @@ const pageTitle = computed(() => {
   height: 100%;
   box-sizing: border-box;
   padding: 1rem 2rem !important;
-  background: v-bind("constants.COLOR_WHITE") !important;
+  background: v-bind("constants.COLOR_BACKGROUND") !important;
 }
 
 .default-title {
@@ -57,7 +57,7 @@ const pageTitle = computed(() => {
 /* Body */
 .default-slot p {
   margin: 0 0 0.5rem;
-  color: v-bind("constants.COLOR_BLACK");
+  color: v-bind("constants.COLOR_TEXT");
   font-size: v-bind("constants.FONT_SIZE_S");
   font-weight: v-bind("constants.FONT_WEIGHT_BOLD");
   line-height: v-bind("constants.FONT_LINE_HEIGHT");
@@ -67,7 +67,7 @@ const pageTitle = computed(() => {
 .default-slot ol {
   display: block !important;
   margin: 0 0 0.5rem;
-  color: v-bind("constants.COLOR_BLACK");
+  color: v-bind("constants.COLOR_TEXT");
   font-size: v-bind("constants.FONT_SIZE_S") !important;
   font-weight: v-bind("constants.FONT_WEIGHT_BOLD");
   line-height: v-bind("constants.FONT_LINE_HEIGHT");
@@ -130,14 +130,14 @@ const pageTitle = computed(() => {
 
 /* Markdown*/
 strong {
-  color: v-bind("constants.COLOR_RED") !important;
+  color: v-bind("constants.COLOR_PRIMARY") !important;
 }
 
 .slidev-code {
-  background-color: v-bind("constants.COLOR_GRAY") !important;
+  background-color: v-bind("constants.COLOR_CODE") !important;
   border-radius: 10px !important;
   padding: 1rem !important;
-  color: v-bind("constants.COLOR_BLACK") !important;
+  color: v-bind("constants.COLOR_TEXT") !important;
   font-size: v-bind("constants.FONT_SIZE_S") !important;
 }
 </style>

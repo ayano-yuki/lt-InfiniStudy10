@@ -18,7 +18,7 @@ defineProps({
   width: 100%;
   height: 100%;
   background: v-bind("constants.COLOR_PRIMARY") !important;
-  color: v-bind("constants.COLOR_WHITE");
+  color: v-bind("constants.COLOR_BACKGROUND");
   display: flex;
   align-items: center;
   justify-content: center;

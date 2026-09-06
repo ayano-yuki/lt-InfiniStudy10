@@ -29,7 +29,7 @@ defineProps({
   width: 100%;
   height: 100%;
   background: v-bind("constants.COLOR_PRIMARY") !important;
-  color: v-bind("constants.COLOR_WHITE");
+  color: v-bind("constants.COLOR_COVER");
   font-weight: v-bind("constants.FONT_WEIGHT_BOLD");
   text-align: center;
 }

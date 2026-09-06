@@ -41,7 +41,7 @@ defineProps({
   height: 100%;
   box-sizing: border-box;
   padding: 1rem 2rem !important;
-  background: v-bind("constants.COLOR_WHITE") !important;
+  background: v-bind("constants.COLOR_BACKGROUND") !important;
 }
 
 .introduction-content {
@@ -109,7 +109,7 @@ defineProps({
 
 .introduction-name {
   margin: 0 0 2rem;
-  color: v-bind("constants.COLOR_BLACK");
+  color: v-bind("constants.COLOR_TEXT");
   font-size: v-bind("constants.FONT_SIZE_L") !important;
   font-weight: v-bind("constants.FONT_WEIGHT_BOLD");
 }
@@ -117,7 +117,7 @@ defineProps({
 /* Slot content */
 .introduction-slot p {
   margin: 0 0 0.5rem;
-  color: v-bind("constants.COLOR_BLACK");
+  color: v-bind("constants.COLOR_TEXT");
   font-size: v-bind("constants.FONT_SIZE_S") !important;
   font-weight: v-bind("constants.FONT_WEIGHT_BOLD");
   line-height: v-bind("constants.FONT_LINE_HEIGHT");
@@ -127,7 +127,7 @@ defineProps({
 .introduction-slot ol {
   display: block !important;
   margin: 0;
-  color: v-bind("constants.COLOR_BLACK");
+  color: v-bind("constants.COLOR_TEXT");
   font-size: v-bind("constants.FONT_SIZE_S") !important;
   font-weight: v-bind("constants.FONT_WEIGHT_BOLD");
   line-height: v-bind("constants.FONT_LINE_HEIGHT");
