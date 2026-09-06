@@ -1,5 +1,5 @@
 <script setup>
-import { COLOR_BLACK, COLOR_PRIMARY, COLOR_WHITE } from './constants';
+import * as constants from '@//constants';
 
 defineProps({
   name: String,
@@ -41,7 +41,7 @@ defineProps({
   height: 100%;
   box-sizing: border-box;
   padding: 1rem 2rem !important;
-  background: v-bind("COLOR_WHITE") !important;
+  background: v-bind("constants.COLOR_WHITE") !important;
 }
 
 .introduction-content {
@@ -92,9 +92,9 @@ defineProps({
   flex-shrink: 0;
   margin: 0 0 1rem;
   padding-bottom: 5px;
-  color: v-bind("COLOR_PRIMARY");
-  font-size: 1.5rem !important;
-  font-weight: 900;
+  color: v-bind("constants.COLOR_PRIMARY");
+  font-size: v-bind("constants.FONT_SIZE_M") !important;
+  font-weight: v-bind("constants.FONT_WEIGHT_BOLD");
 }
 
 .introduction-title::after {
@@ -103,34 +103,34 @@ defineProps({
   left: 0;
   width: 100%;
   height: 4px;
-  background-color: v-bind("COLOR_PRIMARY");
+  background-color: v-bind("constants.COLOR_PRIMARY");
   content: "";
 }
 
 .introduction-name {
   margin: 0 0 2rem;
-  color: v-bind("COLOR_BLACK");
-  font-size: 2rem !important;
-  font-weight: 600;
+  color: v-bind("constants.COLOR_BLACK");
+  font-size: v-bind("constants.FONT_SIZE_L") !important;
+  font-weight: v-bind("constants.FONT_WEIGHT_BOLD");
 }
 
 /* Slot content */
 .introduction-slot p {
   margin: 0 0 0.5rem;
-  color: v-bind("COLOR_BLACK");
-  font-size: 1.25rem !important;
-  font-weight: 600;
-  line-height: 1.5;
+  color: v-bind("constants.COLOR_BLACK");
+  font-size: v-bind("constants.FONT_SIZE_S") !important;
+  font-weight: v-bind("constants.FONT_WEIGHT_BOLD");
+  line-height: v-bind("constants.FONT_LINE_HEIGHT");
 }
 
 .introduction-slot ul,
 .introduction-slot ol {
   display: block !important;
   margin: 0;
-  color: v-bind("COLOR_BLACK");
-  font-size: 1.25rem !important;
-  font-weight: 600;
-  line-height: 1.5;
+  color: v-bind("constants.COLOR_BLACK");
+  font-size: v-bind("constants.FONT_SIZE_S") !important;
+  font-weight: v-bind("constants.FONT_WEIGHT_BOLD");
+  line-height: v-bind("constants.FONT_LINE_HEIGHT");
   list-style-position: outside !important;
 }
 

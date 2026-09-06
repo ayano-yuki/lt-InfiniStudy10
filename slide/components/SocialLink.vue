@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import * as constants from '@//constants';
+
 defineProps<{
   icon: string
   label: string
@@ -38,6 +40,6 @@ defineProps<{
 }
 
 .social-link code {
-  font-size: 0.95em;
+  font-size: v-bind("constants.FONT_SIZE_S");
 }
 </style>

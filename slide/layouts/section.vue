@@ -1,5 +1,5 @@
 <script setup>
-import { COLOR_PRIMARY, COLOR_WHITE } from './constants';
+import * as constants from '@//constants';
 
 defineProps({
   message: String,
@@ -17,13 +17,13 @@ defineProps({
   position: relative;
   width: 100%;
   height: 100%;
-  background: v-bind("COLOR_PRIMARY") !important;
-  color: v-bind("COLOR_WHITE");
+  background: v-bind("constants.COLOR_PRIMARY") !important;
+  color: v-bind("constants.COLOR_WHITE");
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 700;
-  font-size: 3rem;
+  font-weight: v-bind("constants.FONT_WEIGHT_BOLD");
+  font-size: v-bind("constants.FONT_SIZE_XL");
   text-align: center;
 }
 </style>

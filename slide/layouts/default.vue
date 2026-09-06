@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from 'vue';
 import { useSlideContext } from '@slidev/client';
-import { COLOR_BLACK, COLOR_PRIMARY, COLOR_WHITE } from './constants';
+import * as constants from '@//constants';
 
 const { $frontmatter } = useSlideContext();
 
@@ -27,16 +27,16 @@ const pageTitle = computed(() => {
   height: 100%;
   box-sizing: border-box;
   padding: 1rem 2rem !important;
-  background: v-bind("COLOR_WHITE") !important;
+  background: v-bind("constants.COLOR_WHITE") !important;
 }
 
 .default-title {
   position: relative;
   margin: 0 0 1rem;
   padding-bottom: 5px;
-  color: v-bind("COLOR_PRIMARY");
-  font-size: 1.5rem;
-  font-weight: 900;
+  color: v-bind("constants.COLOR_PRIMARY");
+  font-size: v-bind("constants.FONT_SIZE_M");
+  font-weight: v-bind("constants.FONT_WEIGHT_BOLD");
 }
 
 .default-title::after {
@@ -45,7 +45,7 @@ const pageTitle = computed(() => {
   left: 0;
   width: 100%;
   height: 4px;
-  background-color: v-bind("COLOR_PRIMARY");
+  background-color: v-bind("constants.COLOR_PRIMARY");
   content: "";
 }
 
@@ -57,20 +57,20 @@ const pageTitle = computed(() => {
 /* Body */
 .default-slot p {
   margin: 0 0 0.5rem;
-  color: v-bind("COLOR_BLACK");
-  font-size: 1.25rem;
-  font-weight: 600;
-  line-height: 1.5;
+  color: v-bind("constants.COLOR_BLACK");
+  font-size: v-bind("constants.FONT_SIZE_S");
+  font-weight: v-bind("constants.FONT_WEIGHT_BOLD");
+  line-height: v-bind("constants.FONT_LINE_HEIGHT");
 }
 
 .default-slot ul,
 .default-slot ol {
   display: block !important;
   margin: 0 0 0.5rem;
-  color: v-bind("COLOR_BLACK");
-  font-size: 1.25rem !important;
-  font-weight: 600;
-  line-height: 1.5;
+  color: v-bind("constants.COLOR_BLACK");
+  font-size: v-bind("constants.FONT_SIZE_S") !important;
+  font-weight: v-bind("constants.FONT_WEIGHT_BOLD");
+  line-height: v-bind("constants.FONT_LINE_HEIGHT");
   list-style-position: outside !important;
 }
 
