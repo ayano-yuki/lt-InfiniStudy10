@@ -127,4 +127,17 @@ const pageTitle = computed(() => {
 .default-slot > :last-child {
   margin-bottom: 0;
 }
+
+/* Markdown*/
+strong {
+  color: v-bind("constants.COLOR_RED") !important;
+}
+
+.slidev-code {
+  background-color: v-bind("constants.COLOR_GRAY") !important;
+  border-radius: 10px !important;
+  padding: 1rem !important;
+  color: v-bind("constants.COLOR_BLACK") !important;
+  font-size: v-bind("constants.FONT_SIZE_S") !important;
+}
 </style>
