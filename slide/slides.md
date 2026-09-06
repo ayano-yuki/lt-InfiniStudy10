@@ -86,6 +86,7 @@ title: まとめ
 
 ---
 layout: section
+message: Appendix
 ---
 
 ---
@@ -126,4 +127,8 @@ title: Appendix：FT手法の種類
 ---
 layout: default
 title: Appendix：FT手法の種類
+---
+
+---
+layout: section
 ---
